@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy — ChatGPT Pro Bookmarks</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+  <main class="container">
+    <header class="site-header" aria-label="Site header">
+      <img src="assets/128.png" alt="Logo" class="logo">
+      <div class="site-title">
+        <h1>ChatGPT Pro Bookmarks</h1>
+      </div>
+    </header>
+
+    <article class="doc" role="main" aria-labelledby="policy-title">
+      <div class="meta">Last updated: <strong>Insert Date</strong></div>
+
+      <h1 id="policy-title">Privacy Policy</h1>
+
+      <div class="toc" aria-label="Table of contents">
+        <strong>Contents</strong>
+        <ol>
+          <li><a href="#what-we-collect">What data we collect</a></li>
+          <li><a href="#how-data-stored">How and where data is stored</a></li>
+          <li><a href="#permissions">Permissions explained</a></li>
+          <li><a href="#data-sharing">Data sharing</a></li>
+          <li><a href="#security">Security</a></li>
+          <li><a href="#retention">Data retention & deletion</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ol>
+      </div>
+
+      <h2 id="what-we-collect">1. What data we collect</h2>
+      <p><strong>Short answer:</strong> We do not collect personal data.</p>
+      <p>Details: This extension stores only the data you explicitly create as bookmarks — a title, a snippet / text, a timestamp, and an internal identifier — in your browser's local storage via <code>chrome.storage.local</code>. We do not collect names, emails, IP addresses, or other personal identifiers.</p>
+
+      <h2 id="how-data-stored">2. How and where data is stored</h2>
+      <p>All bookmark data is stored locally in your browser profile using <code>chrome.storage.local</code>. Data remains on your device and is not uploaded to our servers. The developer does not have access to your bookmarks unless you explicitly export or share them.</p>
+
+      <h2 id="permissions">3. Why we need storage permission</h2>
+      <p>The extension requests only the following permission:</p>
+      <ul>
+        <li><code>storage</code> — so bookmarks can be saved and loaded locally between browser sessions.</li>
+      </ul>
+
+      <h2 id="data-sharing">4. Do we share or sell your data?</h2>
+      <p>No. Since bookmarks are never transmitted off your device by the extension, we do not sell, trade, or share this data with third parties.</p>
+
+      <h2 id="third-party">5. Third-party services</h2>
+      <p>The extension does not use third-party analytics or remote storage. If we add optional cloud sync in the future, we will update this policy and notify users.</p>
+
+      <h2 id="security">6. Security</h2>
+      <p>We follow best practices to ensure the extension does not leak data. The extension runs entirely in the browser context and does not transmit bookmarks. Keep your browser updated and install extensions only from trusted sources.</p>
+
+      <h2 id="retention">7. Data retention and deletion</h2>
+      <p>Your bookmarks remain stored locally until you delete them or uninstall the extension. To delete data, remove bookmarks in the sidebar, uninstall the extension, or clear Chrome's site data for extensions.</p>
+
+      <h2 id="children">8. Children's privacy</h2>
+      <p>This extension is not intended for children under 13, and we do not knowingly collect information from children.</p>
+
+      <h2 id="international">9. International users</h2>
+      <p>If you are located outside the developer’s country, please note data remains on your device and is not transferred to any foreign servers by default.</p>
+
+      <h2 id="changes">10. Changes to this policy</h2>
+      <p>We may update this policy occasionally. Updates will be posted on this page with a revised date.</p>
+
+      <h2 id="contact">11. Contact</h2>
+      <p>If you have questions or concerns, contact us at: <a href="mailto:pratyush3703.dev@gmail.com">pratyush3703.dev@gmail.com</a></p>
+
+    </article>
+
+    <footer class="site-footer">
+      <div class="copyright">© <span id="year"></span> ChatGPT Pro Bookmarks</div>
+      <div style="display:flex;gap:12px;align-items:center">
+        <a class="link-muted" href="index.html">Home</a>
+        <a class="link-muted" href="terms-of-use.html">Terms</a>
+      </div>
+    </footer>
+  </main>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
