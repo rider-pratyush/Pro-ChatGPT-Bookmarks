@@ -1,5 +1,6 @@
 
 # 🧩 ChatGPT Pro Bookmarks
+![marquee_promo_tile](https://github.com/user-attachments/assets/9aff1ae2-b13f-483c-a3d3-d8e0c6e6f836)
 
 ### *Save, search, and organize ChatGPT messages — fast and private.*
 
